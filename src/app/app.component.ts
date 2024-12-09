@@ -148,3 +148,21 @@ let evenArr = arrNum.filter((val) => {
 });
 
 console.log(evenArr);
+
+
+
+// reduce()  method/function
+// performs some operations & reduces the arrary to a single value
+
+let redArr = [10,25,15,60];
+
+const reArr = redArr.reduce((previous, current) => {
+  return previous + current;
+  // return previous > current ? previous : current;
+});
+
+console.log(reArr);
+
+
+
+
